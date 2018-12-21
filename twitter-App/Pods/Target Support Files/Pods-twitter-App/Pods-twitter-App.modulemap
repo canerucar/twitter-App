@@ -1,0 +1,6 @@
+framework module Pods_twitter_App {
+  umbrella header "Pods-twitter-App-umbrella.h"
+
+  export *
+  module * { export * }
+}
