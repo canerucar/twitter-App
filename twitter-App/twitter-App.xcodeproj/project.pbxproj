@@ -13,6 +13,7 @@
 		9C3FC22721CC39B300426D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FC22521CC39B300426D13 /* Main.storyboard */; };
 		9C3FC22921CC39B400426D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FC22821CC39B400426D13 /* Assets.xcassets */; };
 		9C3FC22C21CC39B400426D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FC22A21CC39B400426D13 /* LaunchScreen.storyboard */; };
+		9C51C51321CE79AA00CC2600 /* hesapOlusturViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C51C51221CE79AA00CC2600 /* hesapOlusturViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9C3FC22821CC39B400426D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C3FC22B21CC39B400426D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C3FC22D21CC39B400426D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C51C51221CE79AA00CC2600 /* hesapOlusturViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hesapOlusturViewController.swift; sourceTree = "<group>"; };
 		EF64052D79A4533670948BB9 /* Pods_twitter_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twitter_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				9C3FC22121CC39B300426D13 /* AppDelegate.swift */,
 				9C3FC22321CC39B300426D13 /* ViewController.swift */,
 				9C3FC22521CC39B300426D13 /* Main.storyboard */,
+				9C51C51221CE79AA00CC2600 /* hesapOlusturViewController.swift */,
 				9C3FC22821CC39B400426D13 /* Assets.xcassets */,
 				9C3FC22A21CC39B400426D13 /* LaunchScreen.storyboard */,
 				9C3FC22D21CC39B400426D13 /* Info.plist */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C51C51321CE79AA00CC2600 /* hesapOlusturViewController.swift in Sources */,
 				9C3FC22421CC39B300426D13 /* ViewController.swift in Sources */,
 				9C3FC22221CC39B300426D13 /* AppDelegate.swift in Sources */,
 			);

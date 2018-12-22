@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X7C-Nc-Ezv">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,57 +13,131 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="twitter_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="twitter_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="twitteriCON" translatesAutoresizingMaskIntoConstraints="NO" id="kPB-cf-7tT">
-                                <rect key="frame" x="162" y="34" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Şu anda dünyada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FW2-F3-lBq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Şu anda dünyada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FW2-F3-lBq">
                                 <rect key="frame" x="73" y="211" width="231" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
                                 <color key="textColor" red="0.96435421710000002" green="0.97242063280000002" blue="0.98476737739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.96435421710000002" green="0.97242063280000002" blue="0.98476737739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" olup bitenleri gör." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggg-sR-0uy">
-                                <rect key="frame" x="67" y="250" width="240" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" olup bitenleri gör." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ggg-sR-0uy">
+                                <rect key="frame" x="67" y="250" width="241" height="34"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
                                 <color key="textColor" red="0.96435421710000002" green="0.97242063280000002" blue="0.98476737739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.96435421710000002" green="0.97242063280000002" blue="0.98476737739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FO-HK-g0y">
-                                <rect key="frame" x="97" y="330" width="181" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FO-HK-g0y">
+                                <rect key="frame" x="97" y="330" width="181" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Başla" backgroundImage="button_bg">
                                     <color key="titleColor" red="0.96435421710000002" green="0.97242063280000002" blue="0.98476737739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="baslaClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C8c-16-hpx"/>
+                                    <segue destination="AnR-uV-H59" kind="show" id="0aB-EY-ZQw"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zaten bir hesabın var mı?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHd-oO-GBo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zaten bir hesabın var mı?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHd-oO-GBo">
                                 <rect key="frame" x="16" y="615" width="173" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2x-eb-D04">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2x-eb-D04">
                                 <rect key="frame" x="199" y="609" width="61" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Giriş Yap"/>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A2C-bA-ABv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitteriCON" translatesAutoresizingMaskIntoConstraints="NO" id="kPB-cf-7tT">
+                                        <rect key="frame" x="157.5" y="60" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="2qJ-61-SGL"/>
+                                            <constraint firstAttribute="height" constant="60" id="7uh-nU-aWE"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.14120706915855408" green="0.28524726629257202" blue="0.49694645404815674" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="1lr-7h-Uvv"/>
+                                    <constraint firstItem="kPB-cf-7tT" firstAttribute="top" secondItem="A2C-bA-ABv" secondAttribute="top" constant="60" id="VBz-8Z-aME"/>
+                                    <constraint firstItem="kPB-cf-7tT" firstAttribute="centerX" secondItem="A2C-bA-ABv" secondAttribute="centerX" id="dtc-H4-eo0"/>
+                                    <constraint firstItem="kPB-cf-7tT" firstAttribute="centerY" secondItem="A2C-bA-ABv" secondAttribute="centerY" id="l6x-Co-SNh"/>
+                                    <constraint firstAttribute="bottom" secondItem="kPB-cf-7tT" secondAttribute="bottom" constant="8" id="xGC-rp-LaC"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.065605878516551003" green="0.23598939262793567" blue="0.48447414340101524" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.14120706915855408" green="0.28524726629257202" blue="0.49694645404815674" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ggg-sR-0uy" firstAttribute="top" secondItem="FW2-F3-lBq" secondAttribute="bottom" constant="5" id="00o-Lk-bY7"/>
+                            <constraint firstItem="ggg-sR-0uy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="4Qd-9t-QTP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Z2x-eb-D04" secondAttribute="bottom" constant="28" id="AOc-pD-B8G"/>
+                            <constraint firstItem="Z2x-eb-D04" firstAttribute="leading" secondItem="BHd-oO-GBo" secondAttribute="trailing" constant="10" id="HCi-k7-4MP"/>
+                            <constraint firstItem="6FO-HK-g0y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="KtO-uC-1TU"/>
+                            <constraint firstItem="A2C-bA-ABv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eGw-uh-sfR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ggg-sR-0uy" secondAttribute="trailing" constant="67" id="eUr-iL-lig"/>
+                            <constraint firstItem="FW2-F3-lBq" firstAttribute="top" secondItem="A2C-bA-ABv" secondAttribute="bottom" constant="83" id="ela-6H-bPP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BHd-oO-GBo" secondAttribute="bottom" constant="34" id="hdz-LK-qTn"/>
+                            <constraint firstItem="FW2-F3-lBq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="hhh-Xr-FxH"/>
+                            <constraint firstItem="A2C-bA-ABv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iDh-0U-bJS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6FO-HK-g0y" secondAttribute="trailing" constant="97" id="lYd-Rp-EeU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FW2-F3-lBq" secondAttribute="trailing" constant="71" id="mbX-Nj-Wh6"/>
+                            <constraint firstItem="6FO-HK-g0y" firstAttribute="top" secondItem="ggg-sR-0uy" secondAttribute="bottom" constant="46" id="mgS-8e-fJP"/>
+                            <constraint firstItem="6FO-HK-g0y" firstAttribute="leading" secondItem="BHd-oO-GBo" secondAttribute="trailing" constant="-92" id="n3Y-ht-0Ms"/>
+                            <constraint firstItem="FW2-F3-lBq" firstAttribute="width" secondItem="ggg-sR-0uy" secondAttribute="height" multiplier="231:34" id="smg-nm-19g"/>
+                            <constraint firstItem="BHd-oO-GBo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wmL-k5-aDG"/>
+                            <constraint firstItem="A2C-bA-ABv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xQU-xg-RrQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="XFc-CY-Y7v">
+                        <barButtonItem key="backBarButtonItem" title="Ana Sayfa" id="VWI-ge-2Rq"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="125.4872563718141"/>
+            <point key="canvasLocation" x="2015.2" y="125.4872563718141"/>
+        </scene>
+        <!--Hesap Olustur View Controller-->
+        <scene sceneID="cie-yK-mAB">
+            <objects>
+                <viewController storyboardIdentifier="baslaStoryboard" id="AnR-uV-H59" customClass="hesapOlusturViewController" customModule="twitter_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dHi-7d-q3q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.14120706915855408" green="0.28524726629257202" blue="0.49694645404815674" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="sfi-Hb-6Qh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7SN-d1-V7Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r7c-zr-SHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2972" y="124.58770614692655"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rm3-8S-b9R">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="X7C-Nc-Ezv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WAm-gP-QZY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.065205268560000001" green="0.23645618560000001" blue="0.48574089999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.065205268560000001" green="0.23645618560000001" blue="0.48574089999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Z4d-bK-fHC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKN-SY-fmu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="125.4872563718141"/>
         </scene>
     </scenes>
     <resources>
